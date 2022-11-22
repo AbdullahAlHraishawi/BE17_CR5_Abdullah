@@ -32,10 +32,10 @@ if(isset($message)){
                 <a href="index.php">Home</a>
                 <a href="about.php">About</a>
                 <a href="contact.php">Contact</a>
+                <a href="seniors.php">Seniors</a>
             </nav>
             <div class="icons">
                 <div id="menu-btn" class="fas fa-bars"></div>
-                <a href="" class="fas fa-search"></a>
                 <div id="user-btn" class="fas fa-user"></div>
                 <?php
                     $select_adopted_number = mysqli_query ($connect, "SELECT * FROM `adopted` WHERE user_id = '$user_id'") or die ('Query failed');

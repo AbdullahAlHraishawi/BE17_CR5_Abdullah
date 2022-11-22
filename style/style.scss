@@ -711,7 +711,10 @@ section {
       .data {
         padding: 0.2rem 0;
         font-size: 1.5rem;
-        color: var(--black);
+
+        span{
+          color: var(--purple);
+        }
       }
 
       img {

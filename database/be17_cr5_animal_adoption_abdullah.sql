@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 22, 2022 at 07:43 PM
+-- Generation Time: Nov 22, 2022 at 09:04 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 8.1.10
 
@@ -93,14 +93,6 @@ CREATE TABLE `message` (
   `number` varchar(50) NOT NULL,
   `message` varchar(500) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `message`
---
-
-INSERT INTO `message` (`id`, `user_id`, `name`, `email`, `number`, `message`) VALUES
-(2, 1, 'Jasim Hadida', 'jasim.hadida@mail.com', '123456789', 'Jasim Hadida was here!'),
-(3, 7, 'Ahmed Hadida', 'ahmed.hadida@mail.com', '123456789', 'Hello, it\'s your friendly neighbourhood Ahmed Hadida, Jasim Hadida\'s brother.');
 
 -- --------------------------------------------------------
 

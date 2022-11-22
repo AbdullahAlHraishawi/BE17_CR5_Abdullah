@@ -605,7 +605,9 @@ section {
 .show-animals .box-container .box .data {
   padding: 0.2rem 0;
   font-size: 1.5rem;
-  color: var(--black);
+}
+.show-animals .box-container .box .data span {
+  color: var(--purple);
 }
 .show-animals .box-container .box img {
   height: 30rem;
